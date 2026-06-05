@@ -1,34 +1,215 @@
 {
-    "data": 
-        {
-                "Package_name": "com.cinema.hubacine",
-                
-                "term_url": "https://mxradio.online/khawya/terms/",
-                "server_url": "https://mxradio.online/khawya/rest-api/",
-                "api_key": "xjTlhIHYGLMhjifuYG",
-                "envato_code" : "",
-                
-                "FBrewardsAds": "",
-                "facebook_banner":"xxxxx",
-                "fbinter":"xxxxxxx",
-                "fbnative":"xxxxxxxx",
-                
-                "unityGameID":"xxxx", 
-                "unityrewardId":"video",
-                "unitybanner":"bannerCinemaHD",
-                "unityinter":"interCinemaHD",
-
-                "startapp_id":"XXXXXXXXXXX",
-
-
-                "admob_app_id":"ca-app-pub-xxxxxxxxx~xxxxxxxxx",
-                "developerId":"pub-xxxxxxxxx",
-                "admob_banner":"ca-app-pub-xxxxxxxxx_xxxxxxxxx",
-                "admobnative":"ca-app-pub-xxxxxxxxx_xxxxxxxxx",
-                "admobinter":"ca-app-pub-xxxxxxxxx_xxxxxxxxx",
-                "admobreward":"ca-app-pub-xxxxxxxxx_xxxxxxxxx"
-
-        }
-       
- 
+  "questions": [
+    "Is the character male?",
+    "Is the character fictional?",
+    "Is the character famous in sports?",
+    "Is the character famous in movies?",
+    "Is the character famous in music?"
+  ],
+  "characters": [
+    {
+      "name": "Naruto",
+      "attributes": [true, true, false, false, false]
+    },
+    {
+      "name": "Lionel Messi",
+      "attributes": [true, false, true, false, false]
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "attributes": [true, false, true, false, false]
+    },
+    {
+      "name": "Spider-Man",
+      "attributes": [true, true, false, true, false]
+    },
+    {
+      "name": "Harry Potter",
+      "attributes": [true, true, false, true, false]
+    },
+    {
+      "name": "Taylor Swift",
+      "attributes": [false, false, false, false, true]
+    },
+    {
+      "name": "Michael Jordan",
+      "attributes": [true, false, true, false, false]
+    },
+    {
+      "name": "Iron Man",
+      "attributes": [true, true, false, true, false]
+    },
+    {
+      "name": "Beyoncé",
+      "attributes": [false, false, false, false, true]
+    },
+    {
+      "name": "LeBron James",
+      "attributes": [true, false, true, false, false]
+    },
+    {
+      "name": "Superman",
+      "attributes": [true, true, false, true, false]
+    },
+    {
+      "name": "Ariana Grande",
+      "attributes": [false, false, false, false, true]
+    },
+    {
+      "name": "Batman",
+      "attributes": [true, true, false, true, false]
+    },
+    {
+      "name": "Kobe Bryant",
+      "attributes": [true, false, true, false, false]
+    },
+    {
+      "name": "Shakira",
+      "attributes": [false, false, false, false, true]
+    },
+    {
+      "name": "Hulk",
+      "attributes": [true, true, false, true, false]
+    },
+    {
+      "name": "Rihanna",
+      "attributes": [false, false, false, false, true]
+    },
+    {
+      "name": "Cristiano Ronaldo Jr",
+      "attributes": [true, false, true, false, false]
+    },
+    {
+      "name": "Deadpool",
+      "attributes": [true, true, false, true, false]
+    },
+    {
+      "name": "Ed Sheeran",
+      "attributes": [true, false, false, false, true]
+    },
+    {
+      "name": "Black Panther",
+      "attributes": [true, true, false, true, false]
+    },
+    {
+      "name": "Bruno Mars",
+      "attributes": [true, false, false, false, true]
+    },
+    {
+      "name": "Captain America",
+      "attributes": [true, true, false, true, false]
+    },
+    {
+      "name": "Adele",
+      "attributes": [false, false, false, false, true]
+    },
+    {
+      "name": "Spider-Gwen",
+      "attributes": [false, true, false, true, false]
+    },
+    {
+      "name": "Tom Brady",
+      "attributes": [true, false, true, false, false]
+    },
+    {
+      "name": "Wonder Woman",
+      "attributes": [false, true, false, true, false]
+    },
+    {
+      "name": "Billie Eilish",
+      "attributes": [false, false, false, false, true]
+    },
+    {
+      "name": "Flash",
+      "attributes": [true, true, false, true, false]
+    },
+    {
+      "name": "Kanye West",
+      "attributes": [true, false, false, false, true]
+    },
+    {
+      "name": "Green Lantern",
+      "attributes": [true, true, false, true, false]
+    },
+    {
+      "name": "Selena Gomez",
+      "attributes": [false, false, false, false, true]
+    },
+    {
+      "name": "Aquaman",
+      "attributes": [true, true, false, true, false]
+    },
+    {
+      "name": "Drake",
+      "attributes": [true, false, false, false, true]
+    },
+    {
+      "name": "Black Widow",
+      "attributes": [false, true, false, true, false]
+    },
+    {
+      "name": "Shawn Mendes",
+      "attributes": [true, false, false, false, true]
+    },
+    {
+      "name": "Thor",
+      "attributes": [true, true, false, true, false]
+    },
+    {
+      "name": "Post Malone",
+      "attributes": [true, false, false, false, true]
+    },
+    {
+      "name": "Doctor Strange",
+      "attributes": [true, true, false, true, false]
+    },
+    {
+      "name": "Lady Gaga",
+      "attributes": [false, false, false, false, true]
+    },
+    {
+      "name": "Wolverine",
+      "attributes": [true, true, false, true, false]
+    },
+    {
+      "name": "Ed Sheeran",
+      "attributes": [true, false, false, false, true]
+    },
+    {
+      "name": "Iron Fist",
+      "attributes": [true, true, false, true, false]
+    },
+    {
+      "name": "Billie Joe Armstrong",
+      "attributes": [true, false, false, false, true]
+    },
+    {
+      "name": "Black Cat",
+      "attributes": [false, true, false, true, false]
+    },
+    {
+      "name": "Chris Hemsworth",
+      "attributes": [true, false, false, true, false]
+    },
+    {
+      "name": "Scarlett Johansson",
+      "attributes": [false, false, false, true, false]
+    },
+    {
+      "name": "Hawkeye",
+      "attributes": [true, true, false, true, false]
+    },
+    {
+      "name": "Katy Perry",
+      "attributes": [false, false, false, false, true]
+    },
+    {
+      "name": "Black Panther Jr",
+      "attributes": [true, true, false, true, false]
+    },
+    {
+      "name": "The Weeknd",
+      "attributes": [true, false, false, false, true]
+    }
+  ]
 }
